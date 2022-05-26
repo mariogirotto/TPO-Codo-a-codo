@@ -9,7 +9,7 @@
     <nav></nav>
     <main>
         <h2>Registro</h2>
-        <form action="show_data.html">
+        <form name="registroForm" action="show_data.html" onsubmit="return validateForm()" method="post">
             <label for="txtNombre">Nombre:</label>
             <input type="text" name="txtNombre" id="txtNombre">            
             <label for="txtApellido">Apellido:</label>
@@ -17,16 +17,16 @@
             <p>Direccion:</p>            
             <label for="txtCalle">Calle:</label>
             <input type="text" name="txtCalle" id="txtCalle">
-            <label for="nmbrNumero">Numero:</label>
-            <input type="number" name="nmbrNumero" id="nmbrNumero">
+            <label for="nmbrNumero">Altura:</label>
+            <input type="number" name="nmbrAltura" id="nmbrAltura">
             <label for="txtCiudad">Ciudad:</label>
             <input type="text" name="txtCiudad" id="txtCiudad">
             <label for="txtCPA">CPA:</label>
             <input type="text" name="txtCPA" id="txtCPA">
             <br>
             <br>
-            <label for="nmbrTelefono">Telefono:</label>
-            <input type="number" name="nmbrTelefono" id="nmbrTelefono" min=0>
+            <label for="txtTelefono">Telefono:</label>
+            <input type="text" name="txtTelefono" id="txtTelefono" min=0>
             <label for="dateNac">Fecha Nac.:</label>
             <input type="date" name="dateNac" id="dateNac">
             <label for="txtEmail">Email:</label>

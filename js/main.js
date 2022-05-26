@@ -31,3 +31,41 @@ var footerCodeBlock = '<nav>'+
 
 document.querySelector("header").innerHTML = headerCodeBlock
 document.querySelector("footer").innerHTML = footerCodeBlock
+
+function validateForm() {
+    let x = document.forms["registroForm"]["txtNombre"].value;
+    if (x == "") {
+      alert("Debe ingresar el nombre");
+      return false;
+    }
+    x = document.forms["registroForm"]["txtApellido"].value;
+    if (x == "") {
+      alert("Debe ingresar el apellido");
+      return false;
+    }
+    x = document.forms["registroForm"]["txtCalle"].value;
+    if (x == "") {
+      alert("Debe ingresar la calle");
+      return false;
+    }
+    x = document.forms["registroForm"]["nmbrAltura"].value;
+    if (x == "") {
+      alert("Debe ingresar la altura");
+      return false;
+    }
+    x = document.forms["registroForm"]["txtCiudad"].value;
+    if (x == "") {
+      alert("Debe ingresar la ciudad");
+      return false;
+    }
+    x = document.forms["registroForm"]["txtTelefono"].value;
+    if (x == "") {
+      alert("Debe ingresar un telefono");
+      return false;
+    }
+    x = document.forms["registroForm"]["txtEmail"].value;
+    if (x == "") {
+      alert("Debe ingresar un email");
+      return false;
+    }
+  }
