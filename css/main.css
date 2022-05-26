@@ -6,6 +6,9 @@
     h1 {
         font-size: 48pt;
     }
+    div > img {
+        width: 500px;
+    }
   }
 
 @media only screen and (max-width: 414px) {
@@ -16,11 +19,17 @@
     h1 {
         font-size: 36pt;
     }
+    div > img {
+        width: 300px;
+    }
   }
 
 @media only screen and (min-width: 769px) {
     h1 {
         font-size: 72pt;        
+    }
+    div > img {
+        width: 700px;
     }
   }
 
@@ -39,9 +48,14 @@
     height: 0;
   }
 
+.fullwidth {
+    flex-basis: 100%;    
+    align-items: center;
+  }
+
 form > div {
     padding: 5px;
-}  
+} 
 
 h1{
     font-family: 'Updock', cursive;    
