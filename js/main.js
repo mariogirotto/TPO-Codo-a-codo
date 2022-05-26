@@ -4,8 +4,9 @@ var headCodeBlock = '<meta charset="UTF-8">'+
                         '<title>Pastelería Codo a codo</title>'+                        
                         '<link rel="shortcut icon" href="./Imagenes/icono.png" type="image/x-icon">'+
                         '<link rel="preconnect" href="https://fonts.googleapis.com">'+
+                        '<link rel="preconnect" href="https://fonts.googleapis.com">'+
                         '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'+
-                        '<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">'+
+                        '<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&family=Updock&display=swap" rel="stylesheet">'+
                         '<link rel="stylesheet" href="./css/main.css">';
 
 document.querySelector("head").innerHTML = headCodeBlock                    
