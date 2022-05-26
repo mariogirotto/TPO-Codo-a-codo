@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/3a6a7a1eda.js" crossorigin="anonymous"></script>   
+</head>
+<body>
+    <header>               
+    </header>
+    <nav></nav>
+    <main>
+        <h2>Registro</h2>
+        <form action="show_data.html">
+            <label for="txtNombre">Nombre:</label>
+            <input type="text" name="txtNombre" id="txtNombre">            
+            <label for="txtApellido">Apellido:</label>
+            <input type="text" name="txtApellido" id="txtApellido">
+            <p>Direccion:</p>            
+            <label for="txtCalle">Calle:</label>
+            <input type="text" name="txtCalle" id="txtCalle">
+            <label for="nmbrNumero">Numero:</label>
+            <input type="number" name="nmbrNumero" id="nmbrNumero">
+            <label for="txtCiudad">Ciudad:</label>
+            <input type="text" name="txtCiudad" id="txtCiudad">
+            <label for="txtCPA">CPA:</label>
+            <input type="text" name="txtCPA" id="txtCPA">
+            <br>
+            <br>
+            <label for="nmbrTelefono">Telefono:</label>
+            <input type="number" name="nmbrTelefono" id="nmbrTelefono" min=0>
+            <label for="dateNac">Fecha Nac.:</label>
+            <input type="date" name="dateNac" id="dateNac">
+            <label for="txtEmail">Email:</label>
+            <input type="email" name="txtEmail" id="txtEmail">
+            <label for="txtContraseña">Contraseña:</label>
+            <input type="password" name="txtContraseña" id="txtContraseña">
+            <label for="txtLinkTP3">Link del TP3:</label>
+            <input type="text" name="txtLinkTP3" id="txtLinkTP3">
+            <br>
+            <br>
+            Genero:
+            <input type="radio" id="radOtro" name="genero" value="otro" checked>
+            <label for="radOtro">Otro</label>
+            <input type="radio" id="radMujer" name="genero" value="mujer">
+            <label for="radMujer">Mujer</label>
+            <input type="radio" id="radHombre" name="genero" value="hombre">
+            <label for="radHombre">Hombre</label>
+            <br>
+            <a href="sucursales.html"><input type="button" value="Leer mas"></a>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </form>
+        <br><br><br><br><br>
+    </main>
+    <footer>        
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
