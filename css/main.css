@@ -2,11 +2,23 @@
     body {
       background-color: lightblue;
     }
+    h1 {
+        font-size: 48pt;
+    }
   }
 
 @media only screen and (max-width: 414px) {
     body {
       background-color: rgb(121, 233, 186);
+    }
+    h1 {
+        font-size: 36pt;
+    }
+  }
+
+@media only screen and (min-width: 769px) {
+    h1 {
+        font-size: 72pt;
     }
   }
 
@@ -30,8 +42,7 @@ form > div {
 }  
 
 h1{
-    font-family: 'Updock', cursive;
-    font-size: 72pt;
+    font-family: 'Updock', cursive;    
     text-align: center;
 
 }
