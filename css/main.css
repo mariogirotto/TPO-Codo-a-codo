@@ -57,9 +57,9 @@ form > div {
     padding: 5px;
 }
 
-.main {
-    background-size: 100%;
-    margin: 0px;
+main {
+    margin-top: 180px;
+    background-size: 100%;    
     padding: 5px;
 }
 
