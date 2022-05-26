@@ -44,7 +44,7 @@ header{
     padding: 10px;
     border-radius: 3px;
     margin:5px;
-    transition: background-color 2s ease-out 100ms, color 2s ease-out 100ms;
+    transition: background-color 1s ease-out 100ms, color 1s ease-out 100ms;
 }
 .nav:hover{
     background-color: white;
