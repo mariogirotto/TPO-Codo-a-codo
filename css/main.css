@@ -1,16 +1,18 @@
 @media only screen and (min-width: 415px) and (max-width: 768px) {
-    body {
+    /*body {
       background-color: lightblue;
     }
+    */
     h1 {
         font-size: 48pt;
     }
   }
 
 @media only screen and (max-width: 414px) {
-    body {
+    /*body {
       background-color: rgb(121, 233, 186);
     }
+    */
     h1 {
         font-size: 36pt;
     }
