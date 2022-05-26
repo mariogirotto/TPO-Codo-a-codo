@@ -9,46 +9,77 @@
     <nav></nav>
     <main>
         <h2>Registro</h2>
-        <form name="registroForm" action="show_data.html" onsubmit="return validateForm()" method="post">
-            <label for="txtNombre">Nombre:</label>
-            <input type="text" name="txtNombre" id="txtNombre">            
+        <form class="box" name="registroForm" action="show_data.html" onsubmit="return validateForm()" method="post">
+            <div>
+                <label for="txtNombre">Nombre:</label>
+                <input type="text" name="txtNombre" id="txtNombre"> 
+            </div>
+            <div>           
             <label for="txtApellido">Apellido:</label>
             <input type="text" name="txtApellido" id="txtApellido">
-            <p>Direccion:</p>            
+            </div>
+            <br>
+            <div class="break"></div>
+            <div>            
+            Direccion:
+            </div>
+            <div class="break"></div>
+            <div>
             <label for="txtCalle">Calle:</label>
             <input type="text" name="txtCalle" id="txtCalle">
+            </div>
+            <div>
             <label for="nmbrNumero">Altura:</label>
             <input type="number" name="nmbrAltura" id="nmbrAltura">
+            </div>
+            <div>
             <label for="txtCiudad">Ciudad:</label>
             <input type="text" name="txtCiudad" id="txtCiudad">
+            </div>
+            <div>
             <label for="txtCPA">CPA:</label>
             <input type="text" name="txtCPA" id="txtCPA">
-            <br>
-            <br>
+            </div>            
+            <div>
             <label for="txtTelefono">Telefono:</label>
             <input type="text" name="txtTelefono" id="txtTelefono" min=0>
+            </div>
+            <div>
             <label for="dateNac">Fecha Nac.:</label>
             <input type="date" name="dateNac" id="dateNac">
+            </div>
+            <div>
             <label for="txtEmail">Email:</label>
             <input type="email" name="txtEmail" id="txtEmail">
+            </div>
+            <div>
             <label for="txtContraseña">Contraseña:</label>
             <input type="password" name="txtContraseña" id="txtContraseña">
+            </div>
+            <div>
             <label for="txtLinkTP3">Link del TP3:</label>
             <input type="text" name="txtLinkTP3" id="txtLinkTP3">
-            <br>
-            <br>
-            Genero:
+            </div>
+            <div class="break"></div>
+            <div>
+            Genero:            
             <input type="radio" id="radOtro" name="genero" value="otro" checked>
             <label for="radOtro">Otro</label>
             <input type="radio" id="radMujer" name="genero" value="mujer">
             <label for="radMujer">Mujer</label>
             <input type="radio" id="radHombre" name="genero" value="hombre">
             <label for="radHombre">Hombre</label>
-            <br>
-            <a href="sucursales.html"><input type="button" value="Leer mas"></a>
-            <br>
+            </div>
+            <div class="break"></div>
+            <div>            
+            <a href="sucursales.html"><input type="button" value="Leer mas"></a>            
+            </div>
+            <div>
             <input type="submit" value="Enviar">
+            </div>
+            <div>
             <input type="reset" value="Borrar">
+            </div>        
         </form>
         <br><br><br><br><br>
     </main>
