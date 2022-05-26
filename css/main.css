@@ -3,11 +3,13 @@
       background-color: lightblue;
     }
   }
+
 @media only screen and (max-width: 414px) {
     body {
       background-color: rgb(121, 233, 186);
     }
   }
+
 
 .box {
     display: flex;
@@ -42,6 +44,11 @@ header{
     padding: 10px;
     border-radius: 3px;
     margin:5px;
+    transition: background-color 2s ease-out 100ms, color 2s ease-out 100ms;
+}
+.nav:hover{
+    background-color: white;
+    color: black;    
 }
 footer{
     background-color: black;
