@@ -20,7 +20,7 @@
 
 @media only screen and (min-width: 769px) {
     h1 {
-        font-size: 72pt;
+        font-size: 72pt;        
     }
   }
 
@@ -46,6 +46,7 @@ form > div {
 h1{
     font-family: 'Updock', cursive;    
     text-align: center;
+    font-weight: normal;
 
 }
 header > h1{
