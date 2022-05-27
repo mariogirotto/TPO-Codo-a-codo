@@ -22,8 +22,8 @@ var headerCodeBlock = '<nav class="box">'+
                         '<h1>Pasteleria Codo a codo</h1>';
 
 var footerCodeBlock = '<nav>'+
-                        '<a class="socials" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-square fa-2x"></i></a>'+
-                        '<a class="socials" href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter-square fa-2x"></i></a>'+
+                        '<a class="socials" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-square fa-2x"></i></a>&emsp;'+
+                        '<a class="socials" href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter-square fa-2x"></i></a>&emsp;'+
                         '<a class="socials" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram-square fa-2x"></i></a>'+
                         '</nav>'+
                         '<p>Derechos reservados 2022</p>';
