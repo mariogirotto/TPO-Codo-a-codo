@@ -132,7 +132,9 @@ footer{
   #stage a {
     position: absolute;
   }
-  #stage a img {   
+  #stage a img {     
+    border: 2px solid darkgrey;
+    border-radius: 5px;
     background: #fff;
   }
 
